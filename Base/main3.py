@@ -107,4 +107,5 @@ for i in k:
     for j in dic:
         if i in j:
             count+=int(dic[j])
+            break
 print(count)
