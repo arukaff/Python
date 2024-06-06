@@ -110,3 +110,62 @@ def sum(a,b):
         return sum(a + 1, b - 1)
     
 print(sum(-1,-2))
+
+# Для заданного числа N найти количество способов его записи в виде суммы положительных чисел
+# (само число N также считать одной из форм записей такой суммы, т.е. N = N  
+# c=0
+# num=int(input('Введите число N '))       
+# s=str()
+# ls=[]
+# def f(n,ind):
+#     global c
+#     global s
+#     if n==1:
+#         c+=1
+#         print('N равно 1, count ',c)
+#         s+='+'+str(n)
+#         return c
+#     s=str(n)+'+'+str(ind)
+#     print('Вошли ',n,s)
+#     #for i in range(1,n):
+#     while ind<n:
+#         print('Цикл ',ind,n)
+#         ind+=1
+#         n-=1
+#         c+=f(n,ind)
+#         s+='+'+str(n)
+#         c+=1
+#     return c
+# print(s)
+# c+=f(num,0)
+# for i in range(1,num):
+#     s=str(num-i)
+#     c+=f(i,i)
+#     # c+=1
+#     # s+='+'+str(i)
+#     print(s)
+#     s=''
+#print(c)
+c=0
+fl=0
+def f(n,n1):
+   global c
+   global fl
+   if n==1 or n1<0:
+       c+=1
+       print("Конец",n,n1,c)
+       return c
+   if fl==0:
+       print('111111',n,n1,c)
+       c+=1
+       f(n-1,n1+1)
+       
+   if n>1 and n1>1:
+       c+=1
+       fl=1
+       print('22222',n,n1,c)
+     
+       f(n-1,n1-1) 
+       
+   return c
+print(f(5,0))
