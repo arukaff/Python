@@ -146,26 +146,94 @@ print(sum(-1,-2))
 #     print(s)
 #     s=''
 #print(c)
-c=0
-fl=0
-def f(n,n1):
-   global c
-   global fl
-   if n==1 or n1<0:
-       c+=1
-       print("Конец",n,n1,c)
-       return c
-   if fl==0:
-       print('111111',n,n1,c)
-       c+=1
-       f(n-1,n1+1)
+# c=int(0)
+# s=str()
+# fl=0
+# ls=list()
+# def f(n,n1):
+#    global c
+#    global fl
+#    global ls
+#    global s
+#    if n==1 or n1<0:
+#        s+='+'+str(n)
+#        print("Конец",n,n1,c)
+#        return c
+#    if fl==0:
+#        print('111111',n,n1,c)
+#        s=str(n)+'+'+str(n1) 
+#        f(n-1,n1+1)
        
-   if n>1 and n1>1:
-       c+=1
-       fl=1
-       print('22222',n,n1,c)
-     
-       f(n-1,n1-1) 
+#    if n>1 and n1>0:
        
-   return c
-print(f(5,0))
+#        fl=1
+#        print('22222',n,n1,c)
+#        s=str(n)+'+'+str(n1)
+#        f(n-1,n1) 
+#    ls.append(s)
+#    s=''
+#    c+=1  
+#    return c
+# print(f(6,0))
+# print(ls)
+# c=int(0)
+# s=str()
+# fl=0
+# ls=list()
+# def f(n):
+#     global c
+#     global fl
+#     global ls
+#     global s
+#     for i in range(1,n):
+#         s=str(i)+'+'+str(n-i) 
+#         if n==1:
+#             s+='+'+str(n)
+#             print("Конец",n,n1,c)
+#             return c
+#         if i>1:
+#            f(i)
+#         f(n-i)
+#         s=str(i)+'+'+str(n-i)  
+#         ls.append(s)
+#         s=''
+#         c+=1  
+#     return c
+# print(f(5))
+# print(ls)
+def f(n1,v):
+    global s
+    global n
+    
+    if n1==1:
+        #s+='+'+str(1)
+        print("Конец",n1)
+        s+='+'+str(1)
+        return n
+    for i in range(1,n1):
+        s+='+'+str(1)
+        print(s)
+        f(i,v)
+        #s+='+'+str(1)
+    return n
+n=7
+c=2
+s=''
+ls=list()
+ls.append(str(n))
+ls.append(str(n-1)+'+'+str(1))
+for i in range(2,n):
+    s=str(n-i)+'+'+str(i) 
+    ls.append(s)
+    c+=1
+    for j in range(1,i):
+        s=str(n-i)
+        s+='+'+str(i-j)
+        #s=str(n-i)
+        f(i-j,n-i)
+        ls.append(s)
+    ls.append(s)
+    s=''
+    c+=1  
+print(c)
+print(ls)
