@@ -201,39 +201,85 @@ print(sum(-1,-2))
 #     return c
 # print(f(5))
 # print(ls)
-def f(n1,v):
-    global s
-    global n
+# def factorial(number):
+#     if number == 1:
+#         return number
+#     else:
+#         return number * factorial(number - 1)
+# def f(n1,v):
     
-    if n1==1:
-        #s+='+'+str(1)
-        print("Конец",n1)
-        s+='+'+str(1)
-        return n
-    for i in range(1,n1):
-        s+='+'+str(1)
-        print(s)
-        f(i,v)
-        #s+='+'+str(1)
-    return n
-n=7
-c=2
-s=''
+#     if n1==1:
+#         #s+='+'+str(1)
+#         print("Конец",n1)
+#         #s='+1'
+#         return n1
+#     else:
+#         s='+'+str(n1-1)
+#         print(s)
+#         print('qqqqq  ',n1,v)
+#         #s+='+'+str(1)
+#         return f(n1-1,v)
+# n=7
+# c=2
+# print(factorial(n+n-1)/(factorial(n)*factorial(n-1)))
+# s=''
+# ls=list()
+# ls.append(str(n))
+# ls.append(str(n-1)+'+'+str(1))
+# for i in range(2,n):
+#     s=str(n-i)+'+'+str(i) 
+#     ls.append(s)
+#     c+=1
+#     s=str(n-i)
+#     s+=str(f(i,n-i))
+#     ls.append(s)
+#     c+=1  
+# print(c)
+# print(ls)
+# ls=list()
+# s=''
+# def f(n,k):
+#     global s
+#     if n in [0,1]:
+#         print("Конец")
+#         #s+='+'+str(n)
+#         return n   
+#     #r=f(n,k-1)+
+#     print('первый вход '+str(k-n),n)
+#     if k-n<=n:
+#         s=str(n)+'+'+str(k-n)
+#     print(s)   
+#     r=f(n-1,k)
+#     #s=str(k-n)
+#     print('первый выход ',k,n)
+#     if n > 1 and k-n>=n:
+#         print('второй вход ',k,n)
+#         f(n-1,n)
+#         print('второй вsход ',k,n)
+#     s+='+'+str(n)+'+'+str(k-n)
+#     print(s)
+#     return n
+# print(str(f(7,7)))
 ls=list()
-ls.append(str(n))
-ls.append(str(n-1)+'+'+str(1))
-for i in range(2,n):
-    s=str(n-i)+'+'+str(i) 
-    ls.append(s)
-    c+=1
-    for j in range(1,i):
-        s=str(n-i)
-        s+='+'+str(i-j)
-        #s=str(n-i)
-        f(i-j,n-i)
-        ls.append(s)
-    ls.append(s)
-    s=''
-    c+=1  
-print(c)
-print(ls)
+s=''
+c=0
+n=5
+def f(n,k):
+    global c
+    global s
+    # if k ==0 and n ==0:
+    #     print("Конец 1",n,k)       
+    #     return  1
+    if k ==0 or n <k:
+        print("Конец",n,k)
+        if n>0 or (k==0 and n==0):
+            c+=1
+        return  c
+    #r=f(n,k-1)+
+    print('первый вход ',n,k) 
+    f(n,k-1)+f(n-k,k-1)
+    #s=str(k-n)
+    print('первый выход ',n,k)
+    
+    return c
+print(str(f(n,0)))
