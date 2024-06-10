@@ -260,26 +260,30 @@ print(sum(-1,-2))
 #     print(s)
 #     return n
 # print(str(f(7,7)))
-ls=list()
+# ls=list()
 s=''
 c=0
 n=5
 def f(n,k):
     global c
     global s
-    # if k ==0 and n ==0:
-    #     print("Конец 1",n,k)       
-    #     return  1
-    if k ==0 or n <k:
+    if n==0:
+        c+=1
+    if k ==0 or k>n:
         print("Конец",n,k)
-        if n>0 or (k==0 and n==0):
-            c+=1
+        
         return  c
-    #r=f(n,k-1)+
+    print(s)
+    s=str(n)
     print('первый вход ',n,k) 
-    f(n,k-1)+f(n-k,k-1)
+    f(n,k-1)
+    #print('первый выход ',n,k)
+    #print('Второй вход ',n,k)
+    f(n-k,k)
     #s=str(k-n)
-    print('первый выход ',n,k)
-    
+    print('Второй выход ',n,k)
+    s+=str(k)
     return c
-print(str(f(n,0)))
+print(str(f(n,n)))
+
+
