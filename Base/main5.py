@@ -42,7 +42,7 @@ print(ls)
 # имеет 2 делителя: 1 и n(само число)
 # Input: 5
 # Output: yes 
-inp =44# int(input ('Введите число N '))
+inp =5# int(input ('Введите число N '))
 def simple(n):
     d=[2,3,5]
     if n==1 or n in d:
@@ -71,6 +71,15 @@ def lastchr(s):
 s='3 4' #input ('Введите число строку: ')
 lastchr(s)
 print('')
+
+#определить является ли слово полиндромом
+def poliyes(b):
+    if b[0]!=b[-1]:
+        return "no"
+    elif len(b)<=1:
+        return "yes"
+    return poliyes(b[1:-1])
+print(poliyes('weww'))
 
 
 #DZ
