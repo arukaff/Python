@@ -261,29 +261,43 @@ print(sum(-1,-2))
 #     return n
 # print(str(f(7,7)))
 # ls=list()
-s=''
-c=0
-n=5
-def f(n,k):
-    global c
-    global s
-    if n==0:
-        c+=1
-    if k ==0 or k>n:
-        print("Конец",n,k)
+# s=''
+# c=0
+# n=5
+# def f(n,k):
+#     global c
+#     global s
+#     if n==0:
+#         c+=1
+#     if k ==0 or k>n:
+#         print("Конец",n,k)
         
-        return  c
-    print(s)
-    s=str(n)
-    print('первый вход ',n,k) 
-    f(n,k-1)
-    #print('первый выход ',n,k)
-    #print('Второй вход ',n,k)
-    f(n-k,k)
-    #s=str(k-n)
-    print('Второй выход ',n,k)
-    s+=str(k)
-    return c
-print(str(f(n,n)))
+#         return  c
+#     print(s)
+#     s=str(n)
+#     print('первый вход ',n,k) 
+#     f(n,k-1)
+#     #print('первый выход ',n,k)
+#     #print('Второй вход ',n,k)
+#     f(n-k,k)
+#     #s=str(k-n)
+#     print('Второй выход ',n,k)
+#     s+=str(k)
+#     return c
+# print(str(f(n,n)))
 
+
+# 
+ 
+# lst = [12, 10, 106, 31, 15]
+# sls=[]
+# #d=map(int, str(lst))
+# for i in lst:
+#     s=str(i)
+#     sum=0
+#     for j in s:
+#         sum+=int(j)
+#     sls.append(sum)
+# #d=sorted(lst, key = lambda x:(sum(map(int, str(x)),[])))
+# print(sls)
 
