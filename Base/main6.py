@@ -74,11 +74,66 @@ print(count)
 # Ввод: Вывод:
 # 300   220 284
 def s_d(n):
-    return sum([i for i in range(1, n)
-                if n % i == 0])
+    return sum([i for i in range(1, n//2+1) if n % i == 0])
 
-n = int(input ('Введите число N '))
+n = 300 #int(input ('Введите число N '))
 ls=[i for i in range(1, n+1)]
-print(ls)
+#print(ls)
 ks=[s_d(i) for i in ls]
-print(ks)
+#print(ks)
+ins=[]
+for i in range(len(ks)):
+    for j in range(i+1,len(ks)):
+        if ls[i]==ks[j] and ks[j] not in ins and ls[j]==ks[i]:
+           print(ls[i],' ',ls[j])
+           ins.append(ks[i])
+           break 
+#print(ins)
+
+# for i in range(1,300):
+#     summ=1
+#     summ1=1
+#     for j in range(2,i//2+1):
+#         if i%j==0:
+#             summ+=j
+#     for x in range(2,summ//2+1):
+#         if summ%x==0:
+#             summ1+=x
+#     if i==summ1 and i<summ:
+#         print('Ответ  ',i,summ)
+
+#ДЗ
+
+# Задача 30: Заполните массив элементами арифметической
+# прогрессии. Её первый элемент, разность и количество
+# элементов нужно ввести с клавиатуры. Формула для
+# получения n-го члена прогрессии: an = a1 + (n-1) * d.
+# Каждое число вводится с новой строки.
+# Ввод: 7 2 5
+# Вывод: 7 9 11 13 15
+
+ins=[7,2,5]
+ls=[ins[0]+i*ins[1] for i in range(ins[2])]
+print(ls)
+
+# другое решение
+# for i in range(ins[2]):
+#     print(ins[0]+i*ins[1])
+
+# Задача 32: Определить индексы элементов массива (списка),
+# значения которых принадлежат заданному диапазону (т.е. не
+# меньше заданного минимума и не больше заданного
+# максимума)
+# Ввод: [-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
+# Вывод: [1, 9, 13, 14, 19]
+ls=[-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
+ins=[-6,11]
+res=[i for i in range(len(ls)) if (ls[i]>=ins[0] and ls[i]<=ins[1])]
+for item in res:
+    print(item)
+
+# другое решение
+# for i in range(len(list_1)):
+#   if min_number <= list_1[i] <= max_number:
+#     print(i)
+ 
