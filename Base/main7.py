@@ -73,14 +73,6 @@ else:
 # Вывод:
 # 2.5 10
 def find_farthest_orbit(orbits):
-    # sq=0
-    # indx=0
-    # for i in range(len(orbits)):
-    #    s=3.14*orbits[i][0]*orbits[i][1]
-    #    if s>sq and orbits[i][0]!=orbits[i][1]:
-    #        indx=i
-    #        sq=s
-    # return orbits[indx]
     return max(orbits,key=lambda x: x[0] * x[1] if x[0] != x[1] else 0)
 orbits = [(1, 3), (2.5, 10), (7, 2), (6, 6), (4, 3)]
 print(*find_farthest_orbit(orbits))
@@ -101,12 +93,12 @@ print(*find_farthest_orbit(orbits))
 # else:
 # print(‘different’)
 def same_by(characteristic, objects):
-    s=list(map(characteristic,objects))
-    if s.count(s[0]) == len(s):
-        return True
-    return False   
+    return len(list(filter(characteristic,objects)))==len(objects)
+    # if s.count(s[0]) == len(s):
+    #     return True
+    # return False   
 values = [0, 2, 10, 6] 
-if same_by(lambda x: x % 2, values):
+if same_by(lambda x: x % 2==0, values):
     print('same')
 else:
     print('different')
