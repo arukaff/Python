@@ -21,7 +21,7 @@ def work_with_phonebook():
 
     phone_book=read_txt('phon.txt')
 
-    while (choice!=8):
+    while (choice!=9):
 
         if choice==1:
             print_result(phone_book)
@@ -48,7 +48,10 @@ def work_with_phonebook():
         elif choice==7:
             write_txt('phon.txt',phone_book)
             break
-
+        elif choice==8:
+            file_name=input('Имя нового файла: ')
+            write_txt(file_name,phone_book)
+            break
 
         choice=show_menu()
 
@@ -61,7 +64,8 @@ def show_menu():
 		  "5. Удалить абонента из справочника\n"
           "6. Изменить номер абонента\n"
           "7. Закончить работу и сохранить изменения\n"
-          "8. Выйти без сохранения\n")
+          "8. Сохранить изменения в новом файле"
+          "9. Выйти без сохранения\n")
     choice = int(input())
     return choice
 
