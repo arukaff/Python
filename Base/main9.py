@@ -118,3 +118,34 @@ min_population = df['population'].min()
 
 # Отфильтровать строки с минимальным значением 'population' и найти максимальное значение 'households'
 max_households_in_min_population = df[df['population'] == min_population]['households'].max()
+
+
+# Задача 44: В ячейке ниже представлен код генерирующий DataFrame, которая состоит всего из 1 столбца. Ваша задача перевести его в one hot вид. Сможете ли вы это сделать без get_dummies?
+
+# import random
+# lst = ['robot'] * 10
+# lst += ['human'] * 10
+# random.shuffle(lst)
+# data = pd.DataFrame({'whoAmI':lst})
+# data.head()
+import random
+lst = ['robot'] * 10
+lst += ['human'] * 10
+random.shuffle(lst)
+data = pd.DataFrame({'whoAmI':lst})
+#lambda x: x[0] * x[1] if x[0] != x[1] else 0
+#Вызываемый объект, который возвращает логическую серию
+#df.loc[lambda df: df['shield'] == 8]
+#data.loc[lambda data: 
+data['robot']=0
+data['human']=0
+data.loc[data['whoAmI'] == 'robot','robot'] = 1
+data.loc[data['whoAmI'] == 'human', 'human'] = 1
+data
+#pd.get_dummies(data['whoAmI'])
+# data['tmp'] = 1
+# data.set_index([data.index, 'whoAmI'], inplace=True)
+# data = data.unstack(level=-1, fill_value = 0).astype(int)
+# data.columns = data.columns.droplevel()
+# data.columns.name = None
+# data
