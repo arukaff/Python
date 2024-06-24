@@ -17,26 +17,8 @@
 # n=int(input('Введите число N: '))
 # print('Количество способов разложения числа N: ',f(n,n))
 
-# n=6
-# i=0
-# ls=[]
-# k=n
-# while k>0:
-#     s=[0 for i in range(n+1)]
-#     s[0]=k
-#     for i in range(1,n+1):
-#         s[i]=n-sum(s)
-#         if s[i]==0 and s[i]!=s[i-1]:
-#             if s[i-1]<=s[0]:
-#                 ls.append(s[0:-1])
-#             if s[i-1]>1 and i>1:
-#                 s[i]=s[i-1]-1
-#                 s[i-1]=1
-    
-#     k-=1
-# print(ls)
-# print(len(ls))
-n=6
+#без рекурсии
+n=10
 i=0
 ls=[]
 k=n
@@ -45,20 +27,18 @@ while k>0:
     s[0]=k
     for i in range(1,n+1):
         s[i]=n-sum(s)
-        if s[i]==0 and s not in ls:
+        if s[i]==0 and s[0:-1] not in ls:
             if s[i-1]<=s[0]:
                 ls.append(s[0:-1])
                 for j in range(1,i):
                     if s[j]>1:
                         s[j]-=1
-                        s[i]=1
+                        s.insert(j+1,1)
+                        del s[-1]
+                        break
             else:
                 s[i]=s[i-1]-s[0]
                 s[i-1]=s[0]
-            # if s[i-1]>1 and i>1:
-            #     s[i]=s[i-1]-1
-            #     s[i-1]=1
-    
     k-=1
 print(ls)
 print(len(ls))
