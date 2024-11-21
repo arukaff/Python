@@ -1,0 +1,201 @@
+№,Видеокарта,Тип,Производительность,Архитектура,Год выпуска,TDP
+1,GeForce RTX 4090,десктопная,100.00,Ada Lovelace,2022,450 W
+2,GeForce RTX 4090 D,десктопная,93.82,Ada Lovelace,2023,425 W
+3,GeForce RTX 4080,десктопная,89.75,Ada Lovelace,2022,320 W
+4,RTX 5880 Ada Generation,для рабочих станций,89.60,Ada Lovelace,2024,285 W
+5,GeForce RTX 4080 SUPER,десктопная,88.89,Ada Lovelace,2024,320 W
+6,GeForce RTX 4070 Ti,десктопная,82.49,Ada Lovelace,2023,285 W
+7,GeForce RTX 4070 Ti SUPER,десктопная,82.23,Ada Lovelace,2024,285 W
+8,Radeon RX 7900 XTX,десктопная,80.53,RDNA 3.0,2022,355 W
+9,GeForce RTX 4070 SUPER,десктопная,78.16,Ada Lovelace,2024,220 W
+10,RTX 4500 Ada Generation,для рабочих станций,77.28,Ada Lovelace,2023,210 W
+11,GeForce RTX 3090 Ti,десктопная,76.91,Ampere,2022,450 W
+12,Radeon PRO W7900,для рабочих станций,76.35,RDNA 3.0,2023,295 W
+13,Radeon RX 7900 XT,десктопная,74.78,RDNA 3.0,2022,300 W
+14,Radeon PRO W7800,для рабочих станций,74.13,RDNA 3.0,2023,260 W
+15,Radeon RX 6950 XT,десктопная,72.97,RDNA 2.0,2022,335 W
+16,RTX 6000 Ada Generation,для рабочих станций,72.72,Ada Lovelace,2022,300 W
+17,RTX 5000 Ada Generation,для рабочих станций,72.57,Ada Lovelace,2023,250 W
+18,GeForce RTX 4090 Mobile,для ноутбуков,71.82,Ada Lovelace,2023,120 W
+19,GeForce RTX 3080 Ti,десктопная,70.28,Ampere,2021,350 W
+20,GeForce RTX 4070,десктопная,69.93,Ada Lovelace,2023,200 W
+21,Radeon RX 6900 XT,десктопная,69.44,RDNA 2.0,2020,300 W
+22,Radeon RX 6900,десктопная,69.44,RDNA 2.0,2020,255 W
+23,Radeon RX 7900 GRE,десктопная,69.39,RDNA 3.0,2023,260 W
+24,GeForce RTX 3090,десктопная,69.29,Ampere,2020,350 W
+25,GeForce RTX 3080 12 GB,десктопная,69.09,Ampere,2022,350 W
+26,GeForce RTX 3080,десктопная,65.39,Ampere,2020,320 W
+27,GeForce RTX 4080 Mobile,для ноутбуков,65.06,Ada Lovelace,2023,110 W
+28,Radeon RX 6800 XT,десктопная,64.92,RDNA 2.0,2020,300 W
+29,RTX 4000 Ada Generation,для рабочих станций,64.01,Ada Lovelace,2023,130 W
+30,Radeon RX 7800 XT,десктопная,63.09,RDNA 3.0,2023,263 W
+31,RTX 5000 Ada Generation Mobile,для ноутбуков,62.50,Ada Lovelace,2022,225 W
+32,GeForce RTX 3070 Ti,десктопная,61.09,Ampere,2021,290 W
+33,GeForce RTX 4060 Ti,десктопная,59.44,Ada Lovelace,2023,160 W
+34,GeForce RTX 4060 Ti 16 GB,десктопная,59.32,Ada Lovelace,2023,165 W
+35,RTX 4000 Ada Generation Mobile,для мобильных рабочих станций,59.26,Ada Lovelace,2023,150 W
+36,RTX A5000,для рабочих станций,59.24,Ampere,2021,230 W
+37,Quadro RTX A6000,для рабочих станций,58.68,Ampere,2020,300 W
+38,Radeon RX 7900M,для ноутбуков,58.37,RDNA 3.0,2023,180 W
+39,Radeon RX 7700,десктопная,58.08,RDNA 3.0,2023,200 W
+40,Radeon RX 7700 XT,десктопная,58.08,RDNA 3.0,2023,245 W
+41,GeForce RTX 3070,десктопная,57.96,Ampere,2020,220 W
+42,Radeon RX 6800,десктопная,57.52,RDNA 2.0,2020,250 W
+43,RTX A5500,для рабочих станций,56.93,Ampere,2022,230 W
+44,GeForce RTX 2080 Ti,десктопная,56.35,Turing,2018,250 W
+45,RTX A4500,для рабочих станций,56.09,Ampere,2021,200 W
+46,RTX 4000 SFF Ada Generation,для рабочих станций,54.54,Ada Lovelace,2023,70 W
+47,Radeon RX 6750 XT,десктопная,53.95,RDNA 2.0,2022,250 W
+48,GeForce RTX 3060 Ti,десктопная,53.11,Ampere,2020,200 W
+49,GeForce RTX 4060,десктопная,51.56,Ada Lovelace,2023,115 W
+50,Radeon RX 6700 XT,десктопная,51.51,RDNA 2.0,2021,230 W
+51,Quadro GV100,для рабочих станций,51.38,Volta,2018,250 W
+52,Radeon Pro W6800,для рабочих станций,51.30,RDNA 2.0,2021,250 W
+53,GeForce RTX 3080 Ti Mobile,для ноутбуков,51.07,Ampere,2022,115 W
+54,GeForce RTX 2080 Super,десктопная,50.72,Turing,2019,250 W
+55,GeForce RTX 4070 Mobile,для ноутбуков,50.68,Ada Lovelace,2023,115 W
+56,RTX A4000,для рабочих станций,50.36,Ampere,2021,140 W
+57,TITAN Xp,десктопная,50.35,Pascal,2017,250 W
+58,Radeon RX 6700,десктопная,50.09,RDNA 2.0,2021,175 W
+59,Radeon RX 6750 GRE 12 GB,десктопная,50.01,RDNA 2.0,2023,250 W
+60,Quadro RTX 8000,для рабочих станций,49.97,Turing,2018,260 W
+61,Radeon PRO W7700,для рабочих станций,49.84,RDNA 3.0,2023,190 W
+62,RTX 3500 Ada Generation Mobile,для мобильных рабочих станций,49.06,Ada Lovelace,2023,115 W
+63,TITAN RTX,десктопная,48.88,Turing,2018,280 W
+64,GeForce RTX 2080,десктопная,48.72,Turing,2018,215 W
+65,Quadro RTX 6000,для рабочих станций,48.55,Turing,2018,260 W
+66,A10G,для рабочих станций,48.53,Ampere,2021,150 W
+67,Radeon RX 6750 GRE,десктопная,48.24,RDNA 2.0,2023,250 W
+68,Radeon RX 6750 GRE 10 GB,десктопная,48.24,RDNA 2.0,2023,170 W
+69,GeForce GTX 1080 Ti,десктопная,48.13,Pascal,2017,250 W
+70,GeForce RTX 2070 Super,десктопная,47.26,Turing,2019,215 W
+71,GeForce RTX 3070 Ti Mobile,для ноутбуков,46.54,Ampere,2022,115 W
+72,RTX 2000 Ada Generation,для рабочих станций,45.92,Ada Lovelace,2024,70 W
+73,GeForce RTX 4060 Mobile,для ноутбуков,45.74,Ada Lovelace,2023,115 W
+74,Radeon Pro W5700X,для рабочих станций,45.59,RDNA 1.0,2019,205 W
+75,Radeon RX 6850M XT,для ноутбуков,45.39,RDNA 2.0,2022,165 W
+76,RTX A4500 Mobile,для мобильных рабочих станций,45.29,Ampere,2022,140 W
+77,RTX A5500 Mobile,для мобильных рабочих станций,44.97,Ampere,2022,165 W
+78,Radeon RX 6650 XT,десктопная,44.60,RDNA 2.0,2022,176 W
+79,Radeon RX 7600 XT,десктопная,44.49,RDNA 3.0,2024,190 W
+80,TITAN V,десктопная,44.39,Volta,2017,250 W
+81,GeForce RTX 3060,десктопная,44.28,Ampere,2021,170 W
+82,Radeon RX 6650M XT,для ноутбуков,44.24,RDNA 2.0,2022,120 W
+83,TITAN V CEO Edition,десктопная,44.03,Volta,2018,250 W
+84,L40S,для рабочих станций,43.32,Ada Lovelace,2022,300 W
+85,Radeon VII,десктопная,43.17,GCN 5.1,2019,295 W
+86,Radeon RX 5700 XT,десктопная,42.93,RDNA 1.0,2019,225 W
+87,Radeon RX 5700 XT 50th Anniversary,десктопная,42.92,RDNA 1.0,2019,225 W
+88,GeForce RTX 2060 Super,десктопная,42.84,Turing,2019,175 W
+89,Radeon RX 7600,десктопная,42.82,RDNA 3.0,2023,165 W
+90,Radeon RX 6600 XT,десктопная,42.79,RDNA 2.0,2021,160 W
+91,GeForce RTX 3080 Mobile,для ноутбуков,42.68,Ampere,2021,115 W
+92,Quadro GP100,для рабочих станций,42.44,Pascal,2016,235 W
+93,GeForce GTX 1070 SLI (мобильная),для ноутбуков,41.99,Pascal,2016,−
+94,GeForce RTX 2070,десктопная,41.85,Turing,2018,175 W
+95,RTX A5000 Mobile,для мобильных рабочих станций,41.80,Ampere,2021,150 W
+96,RTX 3000 Ada Generation Mobile,для мобильных рабочих станций,41.79,Ada Lovelace,2023,115 W
+97,Quadro RTX 5000,для рабочих станций,41.33,Turing,2018,230 W
+98,GeForce RTX 2060 12 GB,десктопная,41.24,Turing,2021,184 W
+99,Radeon Pro W6600,для рабочих станций,40.47,RDNA 2.0,2021,100 W
+100,Radeon Pro Vega II,для рабочих станций,40.42,GCN 5.1,2019,475 W
+101,Radeon Pro W6800X Duo,для рабочих станций,40.32,RDNA 2.0,2021,400 W
+102,Radeon Pro W6800X,для рабочих станций,40.32,RDNA 2.0,2021,200 W
+103,GeForce GTX 1080,десктопная,40.27,Pascal,2016,180 W
+104,Radeon RX 6800S,для ноутбуков,40.01,RDNA 2.0,2022,100 W
+105,GeForce RTX 3060 8 GB,десктопная,39.88,Ampere,2022,170 W
+106,RTX A4000 Mobile,для мобильных рабочих станций,39.78,Ampere,2021,115 W
+107,Quadro RTX 4000,для рабочих станций,39.74,Turing,2018,160 W
+108,Quadro P6000,для рабочих станций,39.67,Pascal,2016,250 W
+109,RTX 2000 Ada Generation Mobile,для мобильных рабочих станций,39.43,Ada Lovelace,2023,115 W
+110,Radeon RX 6600,десктопная,39.31,RDNA 2.0,2021,132 W
+111,GeForce RTX 2080 (мобильная),для ноутбуков,39.27,Turing,2019,150 W
+112,GeForce RTX 2080 Super Mobile,для ноутбуков,39.25,Turing,2020,150 W
+113,GeForce GTX 980 SLI (мобильная),для ноутбуков,39.22,Maxwell,2015,330 W
+114,Radeon RX 7700S,для ноутбуков,39.17,RDNA 3.0,2023,100 W
+115,Radeon Pro W5700,для рабочих станций,38.94,RDNA 1.0,2019,205 W
+116,Radeon RX 6650M,для ноутбуков,38.93,RDNA 2.0,2022,120 W
+117,Radeon RX 6700S,для ноутбуков,38.80,RDNA 2.0,2022,80 W
+118,GeForce GTX 1070 Ti,десктопная,38.08,Pascal,2017,180 W
+119,GeForce GTX 1070 SLI,десктопная,38.00,Pascal,2016,300 W
+120,Radeon RX 7600S,для ноутбуков,37.96,RDNA 3.0,2023,75 W
+121,Radeon PRO W7500,для рабочих станций,37.58,RDNA 3.0,2023,70 W
+122,GeForce RTX 4050,десктопная,37.43,Ada Lovelace,2023,100 W
+123,GeForce RTX 4050 Mobile,для ноутбуков,37.43,Ada Lovelace,2023,50 W
+124,Radeon RX 5700,десктопная,37.40,RDNA 1.0,2019,180 W
+125,GeForce GTX 1080 SLI (мобильная),для ноутбуков,37.30,Pascal,2016,−
+126,GeForce RTX 3070 Mobile,для ноутбуков,37.23,Ampere,2021,125 W
+127,Radeon RX Vega 64,десктопная,37.06,GCN 5.0,2017,295 W
+128,Radeon PRO W7600,для рабочих станций,36.87,RDNA 3.0,2023,130 W
+129,GeForce RTX 2060,десктопная,36.67,Turing,2019,160 W
+130,GeForce RTX 2070 Super Mobile,для ноутбуков,36.50,Turing,2020,115 W
+131,Radeon Pro Vega II Duo,для рабочих станций,36.33,GCN 5.1,2019,475 W
+132,Quadro RTX 5000 (мобильная),для мобильных рабочих станций,36.04,Turing,2019,110 W
+133,GeForce RTX 2080 Max-Q,для ноутбуков,36.01,Turing,2019,80 W
+134,GeForce RTX 2080 Super Max-Q,для ноутбуков,35.83,Turing,2020,80 W
+135,GeForce GTX 980 Ti,десктопная,35.79,Maxwell 2.0,2015,250 W
+136,Radeon RX 6600M,для ноутбуков,35.74,RDNA 2.0,2021,100 W
+137,RTX A2000,для рабочих станций,35.59,Ampere,2021,70 W
+138,GeForce RTX 2070 Super Max-Q,для ноутбуков,35.58,Turing,2020,80 W
+139,GeForce GTX 1080 (мобильная),для ноутбуков,35.55,Pascal,2016,150 W
+140,Radeon Pro Vega 64X,для мобильных рабочих станций,35.53,GCN 5.0,2019,250 W
+141,RTX A2000 12 GB,для рабочих станций,35.49,Ampere,2021,70 W
+142,Radeon RX 6600S,для ноутбуков,35.45,RDNA 2.0,2022,80 W
+143,Radeon RX 5600 XT,десктопная,35.29,RDNA 1.0,2020,150 W
+144,Radeon RX 6700M,для ноутбуков,35.12,RDNA 2.0,2021,135 W
+145,Radeon Pro WX 8200,для рабочих станций,35.06,GCN 5.0,2018,230 W
+146,GeForce GTX 1070,десктопная,34.98,Pascal,2016,150 W
+147,Quadro RTX 5000 Max-Q,для мобильных рабочих станций,34.91,Turing,2019,80 W
+148,GeForce RTX 2070 (мобильная),для ноутбуков,34.69,Turing,2019,115 W
+149,Radeon RX 6800M,для ноутбуков,34.36,RDNA 2.0,2021,145 W
+150,Radeon Vega Frontier Edition,для рабочих станций,34.28,GCN 5.0,2017,300 W
+151,Radeon RX Vega 56,десктопная,34.27,GCN 5.0,2017,210 W
+152,Radeon RX 7600M XT,для ноутбуков,34.20,RDNA 3.0,2023,120 W
+153,Quadro RTX 4000 (мобильная),для мобильных рабочих станций,34.19,Turing,2019,110 W
+154,Radeon Pro W6600X,для рабочих станций,33.99,RDNA 2.0,2021,120 W
+155,Arc A770,десктопная,33.76,Generation 12.7,2022,225 W
+156,Titan X Pascal,десктопная,33.76,Pascal,2016,250 W
+157,GeForce GTX TITAN X,десктопная,33.50,Maxwell 2.0,2015,250 W
+158,Radeon Pro Vega 64,для рабочих станций,33.49,GCN 5.0,2017,250 W
+159,GeForce GTX 1660 Ti,десктопная,33.47,Turing,2019,120 W
+160,Radeon Pro VII,для рабочих станций,33.28,GCN 5.1,2020,250 W
+161,GeForce GTX 1660 Super,десктопная,33.05,Turing,2019,125 W
+162,Tesla T10,для рабочих станций,32.79,Turing,−,260 W
+163,Radeon Pro 5700 XT,для рабочих станций,32.69,RDNA 1.0,2020,130 W
+164,GeForce RTX 3050 8 GB,десктопная,32.69,Ampere,2022,130 W
+165,Quadro P5000,для рабочих станций,32.60,Pascal,2016,180 W
+166,GeForce RTX 3060 Mobile,для ноутбуков,32.53,Ampere,2021,80 W
+167,Quadro P5200 Max-Q,для мобильных рабочих станций,32.48,Pascal,2018,100 W
+168,RTX A3000 Mobile,для мобильных рабочих станций,32.35,Ampere,2021,70 W
+169,Radeon PRO WX 9100,для рабочих станций,32.32,GCN 5.0,2017,230 W
+170,Quadro RTX 4000 Max-Q,для мобильных рабочих станций,32.17,Turing,2019,80 W
+171,Radeon Pro Vega 56,для мобильных рабочих станций,32.02,GCN 5.0,2017,210 W
+172,Radeon Pro V520,для рабочих станций,31.77,RDNA 1.0,2020,225 W
+173,Quadro P5200,для мобильных рабочих станций,31.72,Pascal,2018,100 W
+174,Tesla P40,для рабочих станций,31.60,Pascal,2016,250 W
+175,Radeon RX 5600 OEM,десктопная,31.46,RDNA 1.0,2020,150 W
+176,Arc A750,десктопная,31.08,Generation 12.7,2022,225 W
+177,GeForce RTX 3050 OEM,десктопная,30.93,Ampere,2022,130 W
+178,Quadro M6000 24 GB,для рабочих станций,30.80,Maxwell 2.0,2016,250 W
+179,Radeon Pro 5700,для рабочих станций,30.70,RDNA 1.0,2020,130 W
+180,Quadro M6000,для рабочих станций,30.45,Maxwell 2.0,2015,250 W
+181,GeForce RTX 2060 (мобильная),для ноутбуков,30.44,Turing,2019,115 W
+182,GeForce GTX 1660,десктопная,30.26,Turing,2019,120 W
+183,Arc A580,десктопная,30.24,Generation 12.7,2023,175 W
+184,GeForce RTX 2070 Max-Q,для ноутбуков,30.22,Turing,2019,80 W
+185,Quadro P4000,для рабочих станций,30.12,Pascal,2017,105 W
+186,Arc A770M,для ноутбуков,30.07,Generation 12.7,2022,120 W
+187,Quadro P5000 (мобильная),для мобильных рабочих станций,29.97,Pascal,2017,100 W
+188,L4,для рабочих станций,29.85,Ada Lovelace,2023,72 W
+189,Quadro P4200 Max-Q,для мобильных рабочих станций,29.67,Pascal,2018,100 W
+190,RTX A1000 Embedded,для мобильных рабочих станций,29.47,Ampere,2022,35 W
+191,Radeon Pro Vega 48,для мобильных рабочих станций,29.29,GCN 5.0,2019,−
+192,GeForce GTX 1660 Ti (мобильная),для ноутбуков,29.00,Turing,2019,80 W
+193,GeForce GTX 980,десктопная,28.78,Maxwell 2.0,2014,220 W
+194,GeForce GTX 1070 (мобильная),для ноутбуков,28.51,Pascal,2016,120 W
+195,Radeon Pro SSG,для рабочих станций,28.44,GCN 3.0,2016,260 W
+196,RTX A4500 Embedded,для мобильных рабочих станций,28.29,Ampere,2022,80 W
+197,RTX A1000,для рабочих станций,28.00,Ampere,2024,50 W
+198,Tesla T4,для рабочих станций,27.85,Turing,2018,70 W
+199,GeForce RTX 3050 6 GB,десктопная,27.58,Ampere,2024,70 W
+200,RTX 500 Ada Generation Mobile,для мобильных рабочих станций,27.26,Ada Lovelace,2024,35 W
