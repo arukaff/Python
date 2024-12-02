@@ -1,3 +1,4 @@
 ProjectBi/venv/
 Python\DataColMap\keys.py
-Python\DZ2.json
+Python\*.json
+Python\*.csv
