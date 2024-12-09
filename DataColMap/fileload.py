@@ -24,4 +24,4 @@ import wget
 # with open('own.jpg','wb') as f:
 #     f.write(response.content)
 
-wget.download("https://plus.unsplash.com/premium_photo-1669725687221-6fe12c2da6b1.jpg")
+wget.download("https://github.com/ArifYetik/NLP-for-Large-Movie-Review-Dataset-Sentiment-Analysis/blob/main/Large_Movie_Review_sentiments.test.csv.zip")
