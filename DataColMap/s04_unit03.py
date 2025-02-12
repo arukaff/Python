@@ -1,8 +1,7 @@
 # Импорт необходимых библиотек
 import requests
 from lxml import html
-from pymongo import MongoClient
-import time
+
 
 # Определение целевого URL
 url = "https://www.worldathletics.org/records/toplists/sprints/60-metres/indoor/women/senior/2023?page=1"
